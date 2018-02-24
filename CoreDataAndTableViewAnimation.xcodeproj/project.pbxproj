@@ -15,6 +15,7 @@
 		573E49BA2041482900C3A5CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573E49B82041482900C3A5CD /* LaunchScreen.storyboard */; };
 		573E49C52041482900C3A5CD /* CoreDataAndTableViewAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E49C42041482900C3A5CD /* CoreDataAndTableViewAnimationTests.swift */; };
 		573E49D02041482900C3A5CD /* CoreDataAndTableViewAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E49CF2041482900C3A5CD /* CoreDataAndTableViewAnimationUITests.swift */; };
+		573E49E520414DD300C3A5CD /* JustTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E49E420414DD300C3A5CD /* JustTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,9 @@
 		573E49CB2041482900C3A5CD /* CoreDataAndTableViewAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataAndTableViewAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		573E49CF2041482900C3A5CD /* CoreDataAndTableViewAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataAndTableViewAnimationUITests.swift; sourceTree = "<group>"; };
 		573E49D12041482900C3A5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573E49E420414DD300C3A5CD /* JustTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JustTableViewCell.swift; path = /Users/lb/learn/iOS/CoreDataAndTableViewAnimation/CoreDataAndTableViewAnimation/JustTableViewCell.swift; sourceTree = "<absolute>"; };
+		573E49E920414E2800C3A5CD /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		573E49EA20414E2800C3A5CD /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,10 @@
 		573E49AB2041482900C3A5CD /* CoreDataAndTableViewAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				573E49EB20414E2800C3A5CD /* CoreData */,
 				573E49AC2041482900C3A5CD /* AppDelegate.swift */,
 				573E49AE2041482900C3A5CD /* ViewController.swift */,
+				573E49E420414DD300C3A5CD /* JustTableViewCell.swift */,
 				573E49B02041482900C3A5CD /* Main.storyboard */,
 				573E49B62041482900C3A5CD /* Assets.xcassets */,
 				573E49B82041482900C3A5CD /* LaunchScreen.storyboard */,
@@ -127,6 +133,16 @@
 			);
 			path = CoreDataAndTableViewAnimationUITests;
 			sourceTree = "<group>";
+		};
+		573E49EB20414E2800C3A5CD /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				573E49E920414E2800C3A5CD /* Student+CoreDataClass.swift */,
+				573E49EA20414E2800C3A5CD /* Student+CoreDataProperties.swift */,
+			);
+			name = CoreData;
+			path = /Users/lb/learn/iOS/CoreDataAndTableViewAnimation/CoreDataAndTableViewAnimation/CoreData;
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -265,6 +281,7 @@
 				573E49AF2041482900C3A5CD /* ViewController.swift in Sources */,
 				573E49B52041482900C3A5CD /* CoreDataAndTableViewAnimation.xcdatamodeld in Sources */,
 				573E49AD2041482900C3A5CD /* AppDelegate.swift in Sources */,
+				573E49E520414DD300C3A5CD /* JustTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

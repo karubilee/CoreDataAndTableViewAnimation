@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:/Users/lb/learn/iOS/CoreDataAndTableViewAnimation/CoreDataAndTableViewAnimation/CoreData"
+      name = "CoreData">
+      <FileRef
+         location = "group:Student+CoreDataClass.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Student+CoreDataProperties.swift">
+      </FileRef>
+   </Group>
    <FileRef
       location = "self:CoreDataAndTableViewAnimation.xcodeproj">
    </FileRef>
